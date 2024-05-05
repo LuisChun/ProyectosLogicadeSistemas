@@ -36,14 +36,11 @@ hipotenusa= (cateto1**2+cateto2**2)**(1/2)
 print("La hipotenusa es: ",hipotenusa)'''
 
 # pedir nombre y edad para que le tire tambien en que año nacio teninedo la edad
-import datetime
 nombre = input("Cual es tu nombre: ")
 anoniac = int(input("Cual es tu edad: "))
 año = 2024 - anoniac
 print("Hola", nombre)
 print("Naciste en el año",año )
 
-now = datetime.now()
-print(now)
 
 
